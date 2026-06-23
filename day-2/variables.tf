@@ -7,7 +7,7 @@ variable "ami_id" {
 variable "type" {
   description = "The type of the EC2 instance."
   type        = string
-  default     = "t2.nano"
+  default     = ""
 }
 
 variable "key_name" {
